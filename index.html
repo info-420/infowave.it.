@@ -1,0 +1,2000 @@
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- INFOWAVE IT TERMINAL ------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Head ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Infowave IT</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Favicons ------------------------------------------------------------------------------------------------------------------------------------------------------>
+  
+  <link href="https://i.ibb.co/gMfpfStG/circle-infowave.png" alt="circle infowave" rel="icon">
+  <link href="https://i.ibb.co/gMfpfStG/circle-infowave.png" alt="circle infowave" rel="apple-touch-icon">
+
+<!-- /Favicons ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Fonts --------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- /Fonts -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Vendor CSS Files ---------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- /Vendor CSS Files --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Main CSS File ------------------------------------------------------------------------------------------------------------------------------------------------->
+ 
+  <link href="assets/css/main.css" rel="stylesheet">
+
+<!-- /Main CSS File ------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</head>
+
+<!-- /Head --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Discount Popup ------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div id="offerPopup" class="popup-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 99999; justify-content: center; align-items: center; font-family: 'Poppins', sans-serif;">
+    <div class="popup-content" style="background: #fff; padding: 40px 30px; border-radius: 20px; text-align: center; position: relative; max-width: 450px; width: 90%; box-shadow: 0px 20px 40px rgba(0,0,0,0.5); border: 2px solid #47b2e4;">
+        
+        <span onclick="closeOfferPopup()" style="position: absolute; top: 10px; right: 20px; font-size: 35px; color: #333; cursor: pointer; font-weight: bold; line-height: 1;">&times;</span>
+        
+        <div style="font-size: 50px; margin-bottom: 10px;">⏳</div>
+        <h2 style="color: #37517e; font-weight: 700; margin-bottom: 5px;">Hurry Up! Offer Ending Soon</h2>
+        <p style="font-size: 18px; color: #444; margin-bottom: 20px;">Flat <span style="color: #e74c3c; font-weight: bold;">20% DISCOUNT</span> on All Courses</p>
+        
+        <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 25px;">
+            <div style="background: #f1f9fe; padding: 10px; border-radius: 10px; min-width: 70px;">
+                <span id="p-hours" style="display: block; font-size: 24px; font-weight: bold; color: #47b2e4;">24</span>
+                <small style="font-size: 10px; text-transform: uppercase; color: #888;">Hours</small>
+            </div>
+            <div style="background: #f1f9fe; padding: 10px; border-radius: 10px; min-width: 70px;">
+                <span id="p-mins" style="display: block; font-size: 24px; font-weight: bold; color: #47b2e4;">00</span>
+                <small style="font-size: 10px; text-transform: uppercase; color: #888;">Mins</small>
+            </div>
+            <div style="background: #f1f9fe; padding: 10px; border-radius: 10px; min-width: 70px;">
+                <span id="p-secs" style="display: block; font-size: 24px; font-weight: bold; color: #47b2e4;">00</span>
+                <small style="font-size: 10px; text-transform: uppercase; color: #888;">Secs</small>
+            </div>
+        </div>
+        
+        <a href="#pricing" onclick="closeOfferPopup()" style="display: block; background: #47b2e4; color: #fff; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 18px; transition: 0.3s; box-shadow: 0 4px 15px rgba(71, 178, 228, 0.3);">Enroll Now & Claim Discount</a>
+    </div>
+</div>
+
+<!-- /Discount Popup ----------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Body ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">INFOWAVE</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Placed Student</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="blog.html">Demo</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#contact">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Hero Section -------------------------------------------------------------------------------------------------------------------------------------------------->
+   
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Accelerate Your Career With INFOWAVE IT</h1>
+            <p>We provide hands-on networking training to help you master the technologies of tomorrow.</p>
+            <div class="d-flex">
+              <a href="#pricing" class="btn-get-started">Enroll Now</a>
+              <a href="assets/video/infowave reel.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="https://i.ibb.co/PsYpvBBM/hero-img.png" alt="hero img" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+<!-- /Hero Section ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>    
+    
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Clients Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+    
+<section id="stats" class="stats-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-4 text-center stat-item">
+        <h2 class="stat-number">1000+</h2>
+        <p class="stat-text">Students Joined</p>
+      </div>
+
+      <div class="col-4 text-center stat-item">
+        <h2 class="stat-number">900+</h2>
+        <p class="stat-text">Students Placed</p>
+      </div>
+
+      <div class="col-4 text-center stat-item">
+        <h2 class="stat-number">100%</h2>
+        <p class="stat-text">Placement Gurantee</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .stats-section {
+    padding: 40px 0;
+    background-color: #feffff;
+  }
+  .stat-item {
+    margin-bottom: 20px;
+  }
+  .stat-number {
+    font-size: 2.6rem; /* Thoda size kam kiya hai screen fit ke liye */
+    font-weight: 700;
+    color: #3498db; 
+    margin-bottom: 5px;
+  }
+  .stat-text {
+    font-size: 1rem; /* Chhoti screen par readable rahega */
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 0.9;
+  }
+
+  /* Mobile ke liye special adjustment */
+  @media (max-width: 576px) {
+    .stat-number {
+      font-size: 1.5rem; 
+    }
+    .stat-text {
+      font-size: 0.7rem;
+    }
+  }
+</style>
+
+<!-- /Clients Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- About Section ------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              INFOWAVE IT is a next-generation networking and IT solutions company empowering businesses with secure, high-performance, and future-ready infrastructure. From intelligent network design to advanced cybersecurity, we deliver technology that drives reliability, scalability, and growth.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Industry-Standard Mastery: From routing and switching (CCNA/CCNP) to advanced SD-WAN deployments.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Next-Gen Security: Deep-dive training on industry-leading Fortigate and Palo Alto firewalls.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Hands-on Lab Ecosystem: Real-world scenarios designed to build technical confidence and troubleshooting expertise.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Infowave IT Terminal is more than just a training center; it is a launchpad for IT careers. Based on a foundation of "Learning by Doing," we specialize in high-end networking and cybersecurity certifications. We understand that the IT landscape is constantly evolving, which is why our curriculum is designed to stay ahead of the curve, focusing on the technologies that modern enterprises actually use. </p>
+            <a href="https://www.instagram.com/infowave.it?igsh=MTk1MmtnaHpzN2phOA==" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /About Section ------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Why Us Section ------------------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Most Asked Questions by </span><strong>Students</strong></h3>
+              <p>
+                Dought about Courses
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item">
+
+                <h3><span>01</span> What is Network?</h3>
+                <div class="faq-content">
+                  <p>It is set of computers by connecting two or more computers through by cable, They can share their DATA, INFORMATION and RESOURCES with each other.</p>
+                  
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> What is the difference between IPv4 and IPv6?</h3>
+                <div class="faq-content">
+                  <p>An IP Address (Internet Protocol Address) is a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main purposes:
+                    Identifying a device on the network.
+                    Locating the device to enable communication with other devices over a network like the Internet.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> What is the purpose of IP address?</h3>
+                <div class="faq-content">
+                  <p>An IP (Internet Protocol) address is a unique numerical label assigned to every device on a network, serving as a digital identifier to facilitate communication and locate devices. It is used to route data packets to the correct destination on the internet, similar to a physical mailing address.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="https://i.ibb.co/pjysnZ6w/why-us.png" alt="why us" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Why Us Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Skills Section ------------------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="https://i.ibb.co/CppThtq2/illustration-10.webp" alt="illustration 10" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Hands-on Training for Real-World Success</h3>
+            <p class="fst-italic">
+              Join thousands of students who have transformed their careers with Infowave’s specialized networking and security programs.
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>CCNA/CCNP</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>FORTIGATE FIREWALL</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>PALO ALTO FIREWALLL</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>SD-WAN</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Skills Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Services Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <section id="services" class="services section light-background">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <p>Master the technologies that power the world. From fundamental networking to advanced networking, we've got you covered.</p>
+  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="container">
+    <div class="row gy-4 gx-4 justify-content-center">
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative p-4 shadow rounded border bg-white w-100">
+          <div class="icon mb-3"><i class="bi bi-router-fill" style="font-size: 2rem; color: #47b2e4;"></i></div>
+          <h4><a href="https://en.wikipedia.org/wiki/CCNA" class="stretched-link text-decoration-none">CCNA/CCNP</a></h4>
+          <p>CCNA (Associate) builds fundamental networking skills in routing, switching, and security for entry-level roles, while CCNP (Professional) is an advanced certification.</p>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+        <div class="service-item position-relative p-4 shadow rounded border bg-white w-100">
+          <div class="icon mb-3"><i class="bi bi-shield-lock-fill" style="font-size: 2rem; color: #47b2e4;"></i></div>
+          <h4><a href="https://en.wikipedia.org/wiki/Fortinet" class="stretched-link text-decoration-none">Fortigate Firewall</a></h4>
+          <p>FortiGate is Fortinet's leading Next-Generation Firewall (NGFW) platform, using custom security processors and AI-driven FortiGuard threat intelligence.</p>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="900">
+        <div class="service-item position-relative p-4 shadow rounded border bg-white w-100">
+          <div class="icon mb-3"><i class="bi bi-safe-fill" style="font-size: 2rem; color: #47b2e4;"></i></div>
+          <h4><a href="https://en.wikipedia.org/wiki/Palo_Alto_Networks" class="stretched-link text-decoration-none">Palo Alto Firewall</a></h4>
+          <p>Palo Alto firewalls are next-generation firewalls (NGFWs) that provide advanced, application-aware network security beyond traditional filtering.</p>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="1100">
+        <div class="service-item position-relative p-4 shadow rounded border bg-white w-100">
+          <div class="icon mb-3"><i class="bi bi-cloud-haze2-fill" style="font-size: 2rem; color: #47b2e4;"></i></div>
+          <h4><a href="https://en.wikipedia.org/wiki/SD-WAN" class="stretched-link text-decoration-none">SD-WAN</a></h4>
+          <p>SD-WAN uses software to intelligently manage and route traffic across various connections (broadband, LTE, MPLS) for better performance and lower cost.</p>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    </div>
+  </div>
+</section>
+
+<!-- /Services Section --------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Work Process Section ------------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <section id="work-process" class="work-process section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Teaching Process</h2>
+        <p>Simple and effictive process to learn networking from scratch</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 shadow rounded border" data-aos="fade-up" data-aos-delay="200">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="https://i.ibb.co/9fqCjgq/1.jpg" alt="1" alt="Step 1" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">01</div>
+                <h3>fundamentals &amp; Theory</h3>
+                <p> </p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Network Basics</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Protocols & Technologies</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>OSI Model Explained</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4 shadow rounded border" data-aos="fade-up" data-aos-delay="300">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="https://i.ibb.co/HLwL16rj/2.jpg" alt="2" alt="Step 2" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">02</div>
+                <h3>Hands-On Device &amp; Labs</h3>
+                <p> </p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Virtual EVE-NG Labs</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Packet Tracer Exercises</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Real-World scenarios</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4 shadow rounded border" data-aos="fade-up" data-aos-delay="400">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="https://i.ibb.co/DfKBzRzB/3.jpg" alt="3" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">03</div>
+                <h3>Certificate &amp; Job Assurity</h3>
+                <p> </p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>INFOWAVE Certificate</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Career Guidance</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Experience</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Work Process Section ----------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Call To Action Section ---------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="https://i.ibb.co/fzjqBgrD/info.jpg" alt="info" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Start Your Global Networking Career!</h3>
+            <p>Why just learn when you can get hired? Our industry-certified trainers provide 100% placement assistance and real-world project experience.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="blog.html">Book a Free Demo</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Call To Action Section --------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Placed Students Details --------------------------------------------------------------------------------------------------------------------------------------->
+    
+  <section id="portfolio" class="portfolio section">
+
+  <div class="container section-title" data-aos="fade-up ">
+    <h2>Placed Students</h2>
+    <p>Success stories of our students placed in top MNCs</p>
+  </div><div class="container">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        </ul>
+
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="https://i.ibb.co/0jzDyvP0/mahesh-patil.jpg" alt="mahesh patil" class="img-fluid" alt=""> 
+          <div class="portfolio-info">
+            <h4>MAHESH PATIL</h4>
+            <p>WIPRO</p>
+            <a href="https://i.ibb.co/0jzDyvP0/mahesh-patil.jpg" title="1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
+          <img src="https://i.ibb.co/G3WBMqjp/bhagyashree-patil.jpg" alt="bhagyashree patil" class="img-fluid" alt=""> 
+          <div class="portfolio-info">
+            <h4>BHAGYASHRI PATIL</h4>
+            <p>SYSTECH TECHNO PVT LTD</p>
+            <a href="https://i.ibb.co/G3WBMqjp/bhagyashree-patil.jpg" title="2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding">
+          <img src="https://i.ibb.co/B5zjhSqM/hemant-saitwal.jpg" alt="hemant saitwal" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>HEMANT SAITWAL</h4>
+            <p>RELIANCE JIO</p>
+            <a href="https://i.ibb.co/B5zjhSqM/hemant-saitwal.jpg" title="3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="https://i.ibb.co/p7XNSbW/priti-jaiswal.jpg" alt="priti jaiswal" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>PRITI JAISWAL</h4>
+            <p>WIPRO</p>
+            <a href="https://i.ibb.co/p7XNSbW/priti-jaiswal.jpg" title="4" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        </div><div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+          <a href="portfolio-details.html" class="btn-get-started" style="background: var(--accent-color); color: white; padding: 10px 30px; border-radius: 50px; text-decoration: none; display: inline-block; transition: 0.3s;">View More</a>
+        </div>
+        </div>
+    </div>
+  </section>
+
+<!-- /Placed Students Details -------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Team Section -------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+    <section id="team" class="team section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Team</h2>
+    <p>Meet our team of dedicated professionals who work tirelessly to deliver excellence.</p>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4 gx-4">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class=" shadow rounded border-top border-bottom bg-white border-start">
+          <div class="team-member d-flex align-items-start">
+            <div class="pic"><img src="https://i.ibb.co/bgbN9p5c/shirish.jpg" alt="shirish" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Shirish Warke</h4>
+              <span>Teaching Staff & HR Manager</span>
+              <p>Expert Trainer in Network Security & SD-WAN.</p>
+              <div class="social">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i> </a>
+                <a href=""><i class="bi bi-youtube"></i></a>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="shadow rounded border-top border-bottom bg-white border-start">
+          <div class="team-member d-flex align-items-start">
+            <div class="pic"><img src="https://i.ibb.co/hxWnQzCt/ajay.jpg" alt="ajay" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Ajay Pawal</h4>
+              <span>Senior Lecturer / Professor</span>
+              <p>Expert Trainer in CCNA & CCNP</p>
+              <div class="social">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i> </a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class=" shadow rounded border-top border-bottom bg-white border-start">
+          <div class="team-member d-flex align-items-start">
+            <div class="pic"><img src="https://i.ibb.co/cK5bCvj7/vaishali.jpg" alt="vaishali" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Vaishali Mahajan</h4>
+              <span>Assistant Professor / Teacher</span>
+              <p>Expert Trainer in Training Sessions</p>
+              <div class="social">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i> </a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class=" shadow rounded border-top border-bottom bg-white border-start">
+          <div class="team-member d-flex align-items-start">
+            <div class="pic"><img src="https://i.ibb.co/wZNSvwhT/sahil.jpg" alt="sahil" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Sahil Rane</h4>
+              <span>Lab Assistant / Technician</span>
+              <p>Expert Trainer in Lab Practicals</p>
+              <div class="social">
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i> </a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </div>
+</section>
+
+<!-- /Team Section ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Pricing Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <section id="pricing" class="pricing section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Select a plan and scan the QR code to complete your enrollment.</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+              
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>CCNA/CCNP</h3>
+              
+              <h4>
+                <sup>₹</sup>34,999<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹41,999</span>
+              </h4>
+
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 6 months</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹22,499</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Installment Available</span></li>
+              </ul>
+              
+              <button class="buy-btn" onclick="showPaymentQR('CCNA/CCNP', '34,999')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>FORTIGATE FIREWALL</h3>
+
+              <h4>
+                <sup>₹</sup>12,499<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹14,999</span>
+              </h4>
+                <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 2 months</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹8,499</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Installment Available</span></li>
+              </ul>
+              <button class="buy-btn" onclick="showPaymentQR('FORTIGATE FIREWALL', '12,499')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>PALO ALTO FIREWALL</h3>
+
+              <h4>
+                <sup>₹</sup>12,499<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹14,999</span>	
+              </h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 2 months</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹8,499</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Installment Available</span></li>
+              </ul>
+              <button class="buy-btn" onclick="showPaymentQR('PALO ALTO FIREWALL', '12,499')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>FORTIGATE + PALO ALTO</h3>
+
+              <h4>
+                <sup>₹</sup>19,999<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹23,999</span>
+              </h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 4 months</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹9,999</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Installment Available</span></li>
+              </ul>
+              <button class="buy-btn" onclick="showPaymentQR('FORTIGATE + PALO ALTO', '19,999')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>SD-WAN</h3>
+
+              <h4>
+                <sup>₹</sup>18,999<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹22,799</span>
+              </h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 2 months</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹7,999</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Installment Available</span></li>
+              </ul>
+              <button class="buy-btn" onclick="showPaymentQR('SD-WAN', '18,999')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="shadow left shadow bottom shadow right">
+            <div class="pricing-item featured" style="position: relative; overflow: hidden;">
+
+              <div style="position: absolute; top: 10px; right: -30px; background: #ff4d4d; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 12px; font-weight: bold; z-index: 1;">
+                20% OFF
+              </div>
+
+              <h3>FULL COURSE</h3>
+
+              <h4>
+                <sup>₹</sup>59,999<span></span>
+                <span style="text-decoration: line-through; color: #888; font-size: 18px; margin-right: 10px;">₹71,999</span>
+              </h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Course Duration 1 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Course Validity 1.5 year</span></li>
+                <li><i class="bi bi-check"></i> <span>Repeat after 1 year Fees ₹34,999</span></li>
+                <li><i class="bi bi-check"></i> <span>Installment Available</span></li>
+              </ul>
+              <button class="buy-btn" onclick="showPaymentQR('FULL COURSE', '59,999')">Buy Now</button>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div id="paymentModal" class="popup-overlay" style="display: none;">
+      <div class="popup-content" style="max-width: 450px; text-align: left; position: relative; padding-top: 40px;">
+        
+        <button type="button" 
+                onclick="closeEnrollmentModals()" 
+                style="position: absolute; top: 10px; right: 15px; background: transparent; border: none; font-size: 30px; cursor: pointer; color: #666; line-height: 1;">
+          &times;
+        </button>
+        
+        <h2 id="modalTitle" style="text-align: center; margin-bottom: 20px;">Enrollment Form</h2>
+
+        <div id="paymentStep1">
+          <form id="enrollment-inner-form">
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" id="pay-name" class="form-control" placeholder="Enter name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email ID</label>
+              <input type="email" id="pay-email" class="form-control" placeholder="example@mail.com" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Mobile Number</label>
+              <div class="input-group">
+                <span class="input-group-text">+91</span>
+                <input type="tel" id="pay-mobile" class="form-control" placeholder="10-digit mobile" maxlength="10" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 mb-3">
+                <label class="form-label">Amount (₹)</label>
+                <input type="text" id="pay-amount" class="form-control">
+              </div>
+              <div class="col-6 mb-3">
+                <label class="form-label">Today's Date</label>
+                <input type="text" id="pay-date" class="form-control" readonly>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary w-100" onclick="validateAndShowStep2()">Next</button>
+          </form>
+        </div>
+
+        <div id="paymentStep2" style="display: none; text-align: center; position: relative; padding-top: 40px;">
+  
+          <button type="button" 
+                  onclick="showStep1()" 
+                  style="position: absolute; top: 10px; left: 15px; background: transparent; border: none; font-size: 21px; cursor: pointer; color: #666; line-height: 1; z-index: 100; padding: 0;">
+            <i class="bi bi-arrow-left" style="-webkit-text-stroke: 0.5px #666;"></i>
+          </button>
+          
+          
+          <p>Scan to pay <strong>₹<span id="displayAmount"></span></strong></p>
+          <div class="qr-container py-2">
+            <img src="assets/img/ngx QR.jpeg" alt="QR" style="width: 180px; height: 180px; border: 1px solid #ddd; padding: 5px; margin-bottom: 10px;">
+          </div>
+
+          <div class="mb-3" style="text-align: left;">
+            <label class="form-label">Transaction ID / UTR</label>
+            <input type="text" id="pay-transaction" class="form-control" placeholder="Enter Transaction ID" required>
+          </div>
+          
+          <div class="form-check mb-3" style="text-align: left; display: flex; align-items: center; gap: 10px; justify-content: left;">
+              <input class="form-check-input" type="checkbox" id="paymentConfirm" 
+                    style="width: 15px; height: 15px; border: 1px solid #0196fa; cursor: pointer; margin: 0;">
+              <label class="form-check-label" for="paymentConfirm" >
+                I have completed the payment
+              </label>
+            </div>
+          
+          <div id="paymentLoading" style="display: none; margin-bottom: 15px;">
+            <div class="spinner-border text-success" role="status"></div>
+            <p>Saving enrollment...</p>
+          </div>
+
+          <button type="button" id="submitBtn" class="btn btn-success w-100" onclick="completeEnrollment()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+      <div id="enrollmentThankYou" class="popup-overlay2" style="display: none;">
+        <div class="popup-content2" style="text-align: center;">
+          <h1>Thank You!</h1>
+          <p>Your enrollment has been successfully saved. We will contact you soon.</p>
+          <button onclick="closeEnrollmentModals()" class="btn btn-success">Close</button>
+        </div>
+      </div>
+<!----
+      <div id="paymentModal" class="popup-overlay" style="display: none;">
+      <div class="popup-content" style="max-width: 400px;">
+        <h2 id="modalPlanName">Payment</h2>
+        <p>Scan the QR code below to pay <strong id="modalPrice"></strong></p>
+            
+          <div class="qr-container py-3">
+          <img src="d:\infowave\infowave1\assets\img\ngx QR.jpeg" alt="Payment QR Code" style="width: 200px; height: 200px; border: 1px solid #ddd; padding: 10px;">
+
+          <p class="small text-muted">After payment, please send the screenshot to our WhatsApp or Email.</p>
+          <button onclick="closePaymentModal()" style="background: #038535;">Done</button>
+      </div>
+    </div>
+ -->
+    </section>
+ 
+<!-- /Pricing Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Students Review ----------------------------------------------------------------------------------------------------------------------------------------------->
+   
+    <section id="testimonials" class="testimonials section ">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up shadow rounded border">
+        <h2>Students Review</h2>
+        <p>What our students say about their learning journey with us.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container shadow rounded border" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://i.ibb.co/svPNsCzk/hemant.jpg" alt="hemant" class="testimonial-img" alt="">
+                <h3>Hemant saitwal</h3>
+                <h4>Reliance Jio</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The practical approach and industry-relevant projects helped me bridge the gap between theory and practice. It played a crucial role in my placement at Reliance Jio. The mentors are top-notch!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://i.ibb.co/Y7TBgBQq/priti.jpg" alt="priti" class="testimonial-img" alt="">
+                <h3>Priti jaiswal</h3>
+                <h4>Wipro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The training program was exceptionally well-structured. It gave me the technical confidence and industry insights required to excel in my role at WIPRO. I am truly grateful for the guidance and support provided by the mentors throughout the journey.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://i.ibb.co/3yW4S286/pooja.jpg" alt="pooja" class="testimonial-img" alt="">
+                <h3>Pooja Nannavre</h3>
+                <h4>Acute Informatics PVT.LTD</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I had an amazing learning experience here. The hands-on projects and real-world scenarios helped me understand complex concepts easily. It’s the perfect platform for anyone looking to upgrade their skills and stay ahead in the competitive tech industry.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://i.ibb.co/8D0Gc3Fp/sanket.jpg" alt="sanket" class="testimonial-img" alt="">
+                <h3>Sanket Varsale</h3>
+                <h4>C-Edge technologies PVT.LTD</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>A comprehensive learning platform with excellent faculty! The curriculum is perfectly aligned with industry standards, which helped me transition smoothly into my professional career. Highly recommended for all aspiring professionals!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://i.ibb.co/nMNqts7n/swapnil.jpg" alt="swapnil" class="testimonial-img" alt="">
+                <h3>Swapnil Patil</h3>
+                <h4>NTT Data</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I had an amazing learning experience here. The hands-on projects and real-world scenarios helped me understand complex concepts easily. It’s the perfect platform for anyone looking to upgrade their skills and stay ahead in the competitive tech industry.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Students Review ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Frequently Asked Questions ------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <section id="faq-2" class="faq-2 section light-background ">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions about our courses, labs, and placements. Find answers to the most frequently asked questions here.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container ">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10 ">
+
+            <div class="faq-container">
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Does INFOWAVE IT provide practical training for CCNA and CCNP?</h3>
+                <div class="faq-content">
+                  <p>Yes, at our institute we focus more on hands-on lab sessions rather than just theory. You get to practice on real Cisco routers and switches so that you become industry-ready.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Which course are important to become a Network Engineer?</h3>
+                <div class="faq-content">
+                  <p>The industry gold standard for beginners is the Cisco Certified Network Associate (CCNA). and Cisco Certified Network Professional (CCNP)</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Can students from a non-technical background learn networking?</h3>
+                <div class="faq-content">
+                  <p>Absolutely! Our courses are designed from basic to advanced level. If you have an interest in computers, we will guide you from zero to expert level.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What is the career growth and salary scope in networking?</h3>
+                <div class="faq-content">
+                  <p>Due to Digital India and increasing cloud adoption, the demand for Network Engineers is very high. You can start at an entry-level position and grow into roles like Network Architect or Cyber Security Specialist, where salary packages are quite attractive.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Does INFOWAVE IT provide lab access for Fortigate and Palo Alto Firewalls?</h3>
+                <div class="faq-content">
+                  <p>Yes. Security cannot be learned through slides. We provide access to virtualized and physical lab environments where you can practice Policy Creation, VPN Tunnelling, Threat Prevention, and SSL Inspection in real-time scenarios.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How does SD-WAN training benefit my career growth?</h3>
+                <div class="faq-content">
+                  <p>As companies move their applications to the Cloud (AWS/Azure), they are ditching traditional MPLS for SD-WAN. Professionals who understand SD-WAN architecture are seeing significantly higher salary packages and are often recruited for "Network Transformation" roles in MNCs.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Frequently Asked Questions ----------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Recent Blog Postst Section ------------------------------------------------------------------------------------------------------------------------------------
+    
+    <section id="recent-blog-postst" class="recent-blog-postst section light-background">
+
+      <!-- Section Title --
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent Blog Posts</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title --
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-1.webp" class="img-fluid" alt="">
+                <span class="post-date">December 12</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item --
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-2.webp" class="img-fluid" alt="">
+                <span class="post-date">July 17</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post item --
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-post-3.webp" class="img-fluid" alt="">
+                <span class="post-date">September 05</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<-- /Recent Blog Postst Section ----------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Contact Section ----------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact US</h2>
+        <p>Fill out this form, and our expert team will get contact to you within 24 hours to assist you.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+            <div class="shadow left shadow bottom shadow right">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>214, Commerce Plaza, Char Rasta, Manpada Road, Dombivli (E) 421201</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+91 94209 40001</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>infowave.networks@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.578966957366!2d73.08908622575214!3d19.21358339763791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795b3169ff78f%3A0x975f18de11e9a0f2!2sJagannath%E2%80%99s%20Commerce%20Plaza!5e0!3m2!1sen!2sin!4v1772025236673!5m2!1sen!2sin" frameborder="0" style="border:1; width: 100%; height: 462px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+          </div>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>          
+
+          <div class="col-lg-7">
+            <div class="shadow left shadow bottom shadow right">
+            <form action="https://sheetdb.io/api/v1/5yntc92npt3n7" id="contact-form" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="name-field" class="pb-2">Full Name</label>
+                  <input type="text" name="data[NAME]" id="name-field" class="form-control" placeholder="Enter your name"  required="">
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="email-field" class="pb-2">Email Address</label>
+                  <input type="email" class="form-control" name="data[EMAIL]" id="email-field" placeholder="Enter your email address" required="">
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="mobile-field" class="pb-2">Mobile Number</label>
+                  <div class="input-group">
+                    <span class="input-group-text">+91</span>
+                    <input type="text" 
+                          name="data[MOBILE]" 
+                          id="mobile-field" 
+                          class="form-control" 
+                          placeholder="Enter your 10 digit mobile number" 
+                          maxlength="10"
+                          pattern="[789][0-9]{9}" 
+                          title="Phone number must start with 7, 8, or 9 and be exactly 10 digits" 
+                          required="">
+                  </div>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="address-field" class="pb-2">Permanent Address</label>
+                  <input type="text" class="form-control" name="data[ADDRESS]" id="address-field" placeholder="Enter your address" required="">
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="education-field" class="pb-2">Education</label>
+                  <select name="data[EDUCATION]" id="education-field" class="form-select" required onchange="toggleOtherEducation()">
+                    <option value="" selected disabled>Select Education</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.Com">B.Com</option>
+                    <option value="M.Com">M.Com</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BA">BA</option>
+                    <option value="Pharma">Pharma</option>
+                    <option value="Medical">Medical</option>
+                    <option value="LAW">LAW</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <div class="col-md-12" id="other-edu-container" style="display: none; margin-top: 15px;">
+                  <label for="other-edu-field" class="pb-2">Specify Education</label>
+                  <input type="text" name="data[EDUCATION_OTHER]" id="other-edu-field" class="form-control" placeholder="Enter your qualification">
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="course-field" class="pb-2">Courses</label>
+                  <select name="data[COURSE]" id="course-field" class="form-select" required>
+                    <option value="" selected disabled>Select Course</option>
+                    <option value="CCNA/CCNP">CCNA/CCNP</option>
+                    <option value="FORTIGATE FIREWALL">FORTIGATE FIREWALL</option>
+                    <option value="PALO ALTO FIREWALL">PALO ALTO FIREWALL</option>
+                    <option value="SD-WAN">SD-WAN</option>
+                    <option value="ALL">ALL</option>
+                  </select>
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12">
+                  <label for="date-field" class="pb-2">Date of Submission</label>
+                  <input type="text" name="data[DATE]" id="date-field" class="form-control" 
+                        placeholder="Click to show today's date" readonly onclick="showDate()">
+                </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Submit</button>
+                </div>
+
+              </div>
+            </form>
+
+            <div id="successPopup" class="popup-overlay1">
+              <div class="popup-content1">
+                <h1>Thank You!</h1>
+                <p>Your form is submitted successfully, We will contact you as soon as possible</p>
+                <button onclick="closePopup()">OK</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- /Contact Section ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Main ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Subscribe Section --------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section id="subscribe" class="subscribe section">
+  <div class="container shadow rounded border" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 justify-content-between align-items-center ">
+      <div class="col-lg-6 ">
+        <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
+          <h2>Subscribe to our YouTube channel</h2>
+          <p>Click below to watch our latest videos.</p>
+          
+          <div class="d-grid gap-2" data-aos="fade-up" data-aos-delay="300">
+            <a href="https://www.youtube.com/@infowave.it1" target="_blank" class="btn btn-subscribe-fade">
+              <i class="bi bi-youtube me-2"></i> SUBSCRIBE NOW
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
+          <img src="https://i.ibb.co/hFzXhR0H/cta-1.webp" alt="Subscribe" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /Subscribe Section -------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <div class="container footer-top ">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">INFOWAVE</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>214, Commerce Plaza, Char Rasta, Manpada Road, Dombivli (E) 421201</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 94209 4001</span></p>
+            <p><strong>Email:</strong> <span>infowave.networks@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About US</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="portfolio-details.html">Placed Student</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#team">Team (Faculty)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#pricing">Pricing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="blog.html">Demo Lectures</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Click on the icon below and follow our page.</p>
+          <div class="social-links d-flex">
+            <a href="https://www.instagram.com/infowave.it?igsh=MTk1MmtnaHpzN2phOA=="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1DYzvdwoFj/">                     <i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@infowave.it1"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">INFOWAVE</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="infowave.it">SR</a> Distributed by <a href="" target="_blank">SR</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+<!-- /Main --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Vendor JS Files ----------------------------------------------------------------------------------------------------------------------------------------------->
+ 
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- /Vendor JS Files ---------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Discount Popup JS Code ---------------------------------------------------------------------------------------------------------------------------------------->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const popup = document.getElementById('offerPopup');
+        const hElem = document.getElementById('p-hours');
+        const mElem = document.getElementById('p-mins');
+        const sElem = document.getElementById('p-secs');
+
+        const dayInSeconds = 24 * 60 * 60; // 86400 seconds
+
+        // Function to initialize or get timer
+        function updateTimer() {
+            let now = Math.floor(Date.now() / 1000);
+            let startTime = localStorage.getItem('offerStartTime');
+
+            if (!startTime) {
+                // Pehli baar timer set karna
+                startTime = now;
+                localStorage.setItem('offerStartTime', startTime);
+            }
+
+            let elapsedTime = now - startTime;
+            let timeLeft = dayInSeconds - (elapsedTime % dayInSeconds);
+
+            // Display Logic
+            let hours = Math.floor(timeLeft / 3600);
+            let minutes = Math.floor((timeLeft % 3600) / 60);
+            let seconds = timeLeft % 60;
+
+            hElem.innerText = hours < 10 ? '0' + hours : hours;
+            mElem.innerText = minutes < 10 ? '0' + minutes : minutes;
+            sElem.innerText = seconds < 10 ? '0' + seconds : seconds;
+        }
+
+        // Show popup after 2 seconds
+        setTimeout(() => {
+            popup.style.display = 'flex';
+        }, 2000);
+
+        // Run timer every second
+        setInterval(updateTimer, 1000);
+        updateTimer(); // Initial call
+    });
+
+    function closeOfferPopup() {
+        document.getElementById('offerPopup').style.display = 'none';
+    }
+</script>
+
+<!-- /Discount Popup JS Code --------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Main JS File -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script src="assets/js/main.js"></script>
+
+<!-- /Main JS File ------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Contact JS Script --------------------------------------------------------------------------------------------------------------------------------------------->
+
+<script>
+
+  const form = document.getElementById('contact-form');
+  const dateField = document.getElementById('date-field');
+  const scriptURL = 'https://sheetdb.io/api/v1/5ud87hlj2743a'; 
+
+  // NEW: Function to toggle the "Other" input field
+  function toggleOtherEducation() {
+    const eduSelect = document.getElementById('education-field');
+    const otherBox = document.getElementById('other-edu-container');
+    const otherInput = document.getElementById('other-edu-field');
+    
+    if (eduSelect.value === 'Other') {
+      otherBox.style.display = 'block';
+      otherInput.setAttribute('required', 'required');
+    } else {
+      otherBox.style.display = 'none';
+      otherInput.removeAttribute('required');
+      otherInput.value = ""; 
+    }
+  }
+
+  // YOUR ORIGINAL SCRIPT STARTS HERE (Unchanged)
+  function showDate() {
+    const now = new Date();
+    const istDate = new Intl.DateTimeFormat('en-IN', {
+      timeZone: 'Asia/Kolkata',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).format(now);
+    dateField.value = istDate;
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    if (!dateField.value) showDate();
+
+    const loading = form.querySelector('.loading');
+    const errorMessage = form.querySelector('.error-message');
+    const popup = document.getElementById('successPopup');
+
+    loading.style.display = 'block';
+    errorMessage.style.display = 'none';
+    
+    const formData = new FormData(form);
+
+    fetch(scriptURL, { 
+      method: 'POST', 
+      body: formData
+    })
+    .then(response => {
+      loading.style.display = 'none';
+      if (response.ok) {
+        popup.style.display = 'flex';
+        form.reset();
+        dateField.value = ""; 
+        document.getElementById('other-edu-container').style.display = 'none'; // Reset the other box
+      } else {
+        errorMessage.style.display = 'block';
+      }
+    })
+    .catch(error => {
+      loading.style.display = 'none';
+      errorMessage.innerHTML = error.message;
+      errorMessage.style.display = 'block';
+    });
+  });
+
+  function closePopup() {
+    document.getElementById('successPopup').style.display = 'none';
+  }
+
+</script>
+
+<!-- /Contact JS Script -------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- Pricing JS Script --------------------------------------------------------------------------------------------------------------------------------------------->
+
+<script>
+
+  function showPaymentQR(planName, price) {
+    // Remove commas for numeric input
+    const numericPrice = price.replace(/[^0-9]/g, '');
+    
+    document.getElementById('paymentStep1').style.display = 'block';
+    document.getElementById('paymentStep2').style.display = 'none';
+    document.getElementById('paymentConfirm').checked = false;
+    
+    // Set default amount but allow change
+    document.getElementById('pay-amount').value = numericPrice;
+    document.getElementById('displayAmount').innerText = numericPrice;
+    
+    const now = new Date();
+    document.getElementById('pay-date').value = new Intl.DateTimeFormat('en-IN').format(now);
+    document.getElementById('paymentModal').style.display = 'flex';
+  }
+
+  function validateAndShowStep2() {
+    const email = document.getElementById('pay-email').value;
+    const mobile = document.getElementById('pay-mobile').value;
+    const amount = document.getElementById('pay-amount').value;
+    
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const mobilePattern = /^[789]\d{9}$/;
+
+    if (!emailPattern.test(email)) { alert("Invalid email."); return; }
+    if (!mobilePattern.test(mobile)) { alert("Invalid mobile number"); return; }
+    
+    document.getElementById('displayAmount').innerText = amount;
+    document.getElementById('paymentStep1').style.display = 'none';
+    document.getElementById('paymentStep2').style.display = 'block';
+  }
+
+  function showStep1() {
+    document.getElementById('paymentStep1').style.display = 'block';
+    document.getElementById('paymentStep2').style.display = 'none';
+  }
+
+  async function completeEnrollment() {
+    const transId = document.getElementById('pay-transaction').value;
+    if (!transId) { alert("Please enter Transaction ID."); return; }
+    if (!document.getElementById('paymentConfirm').checked) { alert("Please confirm payment."); return; }
+
+    const sheetDbURL = 'https://sheetdb.io/api/v1/3ar5ky8m16q3h';
+    document.getElementById('paymentLoading').style.display = 'block';
+    document.getElementById('submitBtn').disabled = true;
+
+    try {
+      const payload = {
+        "data": [{
+          "NAME": document.getElementById('pay-name').value,
+          "EMAIL": document.getElementById('pay-email').value,
+          "MOBILE": document.getElementById('pay-mobile').value,
+          "AMOUNT": document.getElementById('pay-amount').value,
+          "TRANSACTION_ID": transId, // Sends transaction ID to your sheet
+          "DATE": document.getElementById('pay-date').value
+        }]
+      };
+
+      const response = await fetch(sheetDbURL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      if (response.ok) {
+        document.getElementById('paymentModal').style.display = 'none';
+        document.getElementById('enrollmentThankYou').style.display = 'flex';
+        document.getElementById('enrollment-inner-form').reset();
+        document.getElementById('pay-transaction').value = "";
+      }
+    } catch (error) {
+      alert("Error: " + error.message);
+    } finally {
+      document.getElementById('paymentLoading').style.display = 'none';
+      document.getElementById('submitBtn').disabled = false;
+    }
+  }
+
+  function closeEnrollmentModals() {
+    document.getElementById('paymentModal').style.display = 'none';
+    document.getElementById('enrollmentThankYou').style.display = 'none';
+  }
+
+</script>
+
+<!-- /Pricing JS Script -------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</body>
+
+<!-- /Body --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+</html>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!-- INFOWAVE IT TERMINAL ------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
